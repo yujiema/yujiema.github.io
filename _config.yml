@@ -1,1 +1,10 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: Yujie Ma's Blog
+description: 
+keywords: Blogging, Fun
+author: Yujie Ma
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "www.mayujie.ink" # the base hostname & protocol for your site
+gems: [jekyll-paginate,jekyll-seo-tag,jekyll-sitemap]
+paginate: 3
+google_analytics: ''
