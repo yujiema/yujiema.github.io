@@ -26,9 +26,7 @@
 	<body id="top">
     <header id="header">
       <a href="{{ site.url }}" class="image avatar"><img class="editable" src="/images/avatar.jpg" alt="{{ site.author.name }}"></a>
-      <h1 class="editable"><strong>I am <a href="/">Strata Reloaded</a></strong>, a super simple<br>
-      responsive site template freebie<br>
-      adapted by <a href="http://comfusionllc.com">Comfusion LLC</a>.</h1>
+      <h1 class="editable">I am a chemical engineer and food science engineer.</h1>
     </header>
 
     {{ content }}
@@ -36,28 +34,19 @@
     <footer id="footer">
       <p class="editor-link"><a href="cloudcannon:collections/_data/social.yml" class="button"><strong>&#9998;</strong> Update Social Icons</a></p>
       <ul class="icons">
-        {% for account in site.data.social %}
-					<li>
-						<a {% if account.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=account.link %}" {% if account.social_icon %}class="icon fa-{{ account.social_icon | slugify }}"{% endif %}>
-              <span class="label">{{ account.name }}</span>
-						</a>
-					</li>
-				{% endfor %}
         {% if site.author.email %}
         <li>
-          <a href="mailto:{{ site.author.email }}" class="icon fa-envelope-o">
+          <a href="mailto:{{ mayujie0116@163.com }}" class="icon fa-envelope-o">
             <span class="label">Email</span>
           </a>
         </li>
         {% endif %}
       </ul>
       <ul class="copyright">
-          <li>&copy; Untitled</li>
           <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
           <li>Theme: <a href="http://comfusionllc.com">Comfusion LLC</a></li>
       </ul>
     </footer>
-
 		<script src="/js/jquery.min.js"></script>
 		<script src="/js/jquery.poptrox.min.js"></script>
 		<script src="/js/skel.min.js"></script>
