@@ -1,7 +1,6 @@
 ---
 layout: post
 ---
-<img src="/images/fulls/02.jpg" class="fit image">
 Welcome to visit my blog. I am Ma Yujie, and I am a chemical engineer and food science engineer. I received my B.S degree  from Tsinghua University and M.S degree from UIUC.
 
 Send me an email ( mayujie0116[at]163.com ) if you want to contact me.
